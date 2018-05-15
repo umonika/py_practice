@@ -1,14 +1,12 @@
-num_list=[10,10,11,12,11,14,12]
+a_list= [2,4,5,6,7,8,3,5]
 dup_dict={}
-print ("list :",num_list)
-for num in num_list: 
-    if num in dup_dict:
-        dup_dict[num] = dup_dict[num] + 1
+count = 0
+for val in a_list:
+    if val in dup_dict:
+        count = 1
+        break
+        
     else:
-       dup_dict[num] = 1
-print ("dictionary : ",dup_dict)
-print ("Duplicates in the list : ")       
-
-for num in dup_dict:
-    if dup_dict[num] > 1:
-        print(num)
+        count = 0
+if count == 1:
+    print('it has duplicates')            
