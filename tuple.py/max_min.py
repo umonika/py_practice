@@ -1,11 +1,11 @@
-def minimum(numlist):#function defination for minimum number
+def minimum(numlist):#function definition for minimum number
     min = numlist[0]
     for val in numlist:
         if val <= min:
             min = val
     return min
 
-def maximum(numlist):#function defination for maximum number
+def maximum(numlist):#function definition for maximum number
     max = numlist[0]
     for val in numlist:
         if val >= max:
