@@ -1,4 +1,4 @@
-def minimum(numlist):#function defination for minimum number
+def minimum(numlist):#function defintion for minimum number
     min = numlist[0]
     for val in numlist:
         if val <= min:
